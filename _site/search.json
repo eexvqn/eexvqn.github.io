@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Air Quality",
+    "section": "",
+    "text": "Warning: A total of 37 invalid data have been removed in the process of creating the graph above."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The home page shows the relationship between the Temperature (°F) and Ozone (ppb) in New York, United States of America (USA).\n\n\n\n\n\nNew York, USA (Pinterest)"
+  },
+  {
+    "objectID": "index.html#air-quality",
+    "href": "index.html#air-quality",
+    "title": "Air Quality",
+    "section": "",
+    "text": "── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6     ✔ purrr   0.3.4\n✔ tibble  3.1.8     ✔ dplyr   1.0.9\n✔ tidyr   1.2.0     ✔ stringr 1.4.0\n✔ readr   2.1.2     ✔ forcats 0.5.1\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\n\n\n`geom_smooth()` using formula 'y ~ x'\n\n\nWarning: Removed 37 rows containing non-finite values (stat_smooth).\n\n\nWarning: Removed 37 rows containing missing values (geom_point)."
+  },
+  {
+    "objectID": "index.html#temperature-ozone",
+    "href": "index.html#temperature-ozone",
+    "title": "Air Quality",
+    "section": "",
+    "text": "`geom_smooth()` using formula 'y ~ x'\n\n\nWarning: Removed 37 rows containing non-finite values (stat_smooth).\n\n\nWarning: Removed 37 rows containing missing values (geom_point).\n\n\n\n\n\n\n\n [1]   5  10  25  26  27  32  33  34  35  36  37  39  42  43  45  46  52  53  54\n[20]  55  56  57  58  59  60  61  65  72  75  83  84 102 103 107 115 119 150\n\n\n[1] 153\n\n\n    Ozone Temp\n1       1   59\n2       4   61\n3       6   57\n4       7   74\n5       7   80\n6       7   69\n7       8   61\n8       9   81\n9       9   72\n10      9   71\n11     10   73\n12     11   66\n13     11   62\n14     11   73\n15     12   74\n16     12   73\n17     13   76\n18     13   71\n19     13   76\n20     13   64\n21     14   68\n22     14   64\n23     14   63\n24     14   75\n25     16   69\n26     16   74\n27     16   82\n28     16   82\n29     18   62\n30     18   58\n31     18   67\n32     18   76\n33     19   59\n34     20   65\n35     20   82\n36     20   80\n37     20   68\n38     21   77\n39     21   77\n40     21   75\n41     21   76\n42     22   77\n43     23   65\n44     23   67\n45     23   82\n46     23   76\n47     23   78\n48     23   71\n49     24   73\n50     24   68\n51     27   81\n52     28   66\n53     28   82\n54     28   77\n55     29   82\n56     30   68\n57     30   70\n58     31   78\n59     32   61\n60     32   81\n61     32   84\n62     34   66\n63     35   82\n64     35   85\n65     36   72\n66     36   81\n67     37   76\n68     37   72\n69     39   87\n70     39   81\n71     40   83\n72     41   67\n73     44   86\n74     44   78\n75     44   81\n76     45   81\n77     45   79\n78     46   78\n79     47   87\n80     48   81\n81     49   85\n82     50   86\n83     52   86\n84     59   81\n85     59   79\n86     61   84\n87     63   85\n88     64   83\n89     64   83\n90     65   80\n91     66   87\n92     71   90\n93     73   86\n94     73   93\n95     76   97\n96     77   88\n97     78   86\n98     78   92\n99     79   87\n100    80   86\n101    82   88\n102    84   96\n103    85   89\n104    85   94\n105    89   90\n106    91   93\n107    96   91\n108    97   92\n109    97   92\n110   108   85\n111   110   90\n112   115   79\n113   118   94\n114   122   89\n115   135   84\n116   168   81"
+  },
+  {
+    "objectID": "about.html#summary",
+    "href": "about.html#summary",
+    "title": "About",
+    "section": "",
+    "text": "The home page shows the relationship between the Temperature (°F) and Ozone (ppb) in New York, United States of America (USA).\n\n\n\n\n\nNew York, USA (Pinterest)"
+  },
+  {
+    "objectID": "about.html#details",
+    "href": "about.html#details",
+    "title": "About",
+    "section": "Details",
+    "text": "Details\nTemperature (degree Fahrenheit) refers to the highest temperature taken at La Guardia Airport, New York.\nOzone (ppb) refers to the average ozone measured between 1 PM to 3 PM at Roosevelt Island, New York.\nBoth Temperature (degree Fahrenheit) and Ozone (ppb) serves as an estimate of the temperature and ozone in New York."
+  },
+  {
+    "objectID": "about.html#airquality-dataset",
+    "href": "about.html#airquality-dataset",
+    "title": "About",
+    "section": "“airquality” Dataset",
+    "text": "“airquality” Dataset\nIt is a dataset that is embedded in R. It measures different environmental characteristics in New York, USA from May to September in 1973.\nSome of the variables in the airquality dataset include:\n\n\n[1] \"Ozone\"   \"Solar.R\" \"Wind\"    \"Temp\"    \"Month\"   \"Day\""
+  },
+  {
+    "objectID": "about.html#details-of-variables-used",
+    "href": "about.html#details-of-variables-used",
+    "title": "About",
+    "section": "Details of Variables Used",
+    "text": "Details of Variables Used\nTemperature (°F) refers to the highest temperature taken at La Guardia Airport, New York.\nOzone (ppb) refers to the average ozone measured between 1 PM to 3 PM at Roosevelt Island, New York.\nBoth Temperature (°F) and Ozone (ppb) serves as an estimate of the temperature and ozone in New York."
+  },
+  {
+    "objectID": "about.html#background-of-airquality-dataset",
+    "href": "about.html#background-of-airquality-dataset",
+    "title": "About",
+    "section": "Background of “airquality” Dataset",
+    "text": "Background of “airquality” Dataset\nIt is a dataset that is embedded in R. It measures different environmental characteristics in New York, USA from May to September in 1973.\nSome of the variables in the airquality dataset include:\n\n\n[1] \"Ozone\"   \"Solar.R\" \"Wind\"    \"Temp\"    \"Month\"   \"Day\"    \n\n\nThe number of data collected in the airquality dataset:\n\n\n[1] 153"
+  },
+  {
+    "objectID": "index.html#this-shows-the-rows-which-have-na-values-in-the-ozone-variable.",
+    "href": "index.html#this-shows-the-rows-which-have-na-values-in-the-ozone-variable.",
+    "title": "Air Quality",
+    "section": "This shows the rows which have “NA” values in the Ozone variable.",
+    "text": "This shows the rows which have “NA” values in the Ozone variable.\n\n\n [1]   5  10  25  26  27  32  33  34  35  36  37  39  42  43  45  46  52  53  54\n[20]  55  56  57  58  59  60  61  65  72  75  83  84 102 103 107 115 119 150\n\n\n\nfiltered_dataset &lt;- airquality %&gt;%\n  filter(Ozone &gt;= 0, Temp &gt;= 0) %&gt;%\n  select(Ozone, Temp) %&gt;%\n  arrange(Ozone)"
+  },
+  {
+    "objectID": "index.html#this-shows-the-first-and-last-5-rows-of-the-filtered-dataset-which-involves-the-removal-of-na-values-in-ozone-ppb.",
+    "href": "index.html#this-shows-the-first-and-last-5-rows-of-the-filtered-dataset-which-involves-the-removal-of-na-values-in-ozone-ppb.",
+    "title": "Air Quality",
+    "section": "This shows the first and last 5 rows of the filtered dataset (which involves the removal of “NA” values in Ozone (ppb).",
+    "text": "This shows the first and last 5 rows of the filtered dataset (which involves the removal of “NA” values in Ozone (ppb).\n\nhead(filtered_dataset, n = 5L)\n\n  Ozone Temp\n1     1   59\n2     4   61\n3     6   57\n4     7   74\n5     7   80\n\ntail(filtered_dataset, n = 5L)\n\n    Ozone Temp\n112   115   79\n113   118   94\n114   122   89\n115   135   84\n116   168   81\n\n\n\nairquality %&gt;%\n  summarise(mean = mean(Temp),\n            min = mean(Temp),\n            max = max(Temp))\n\n      mean      min max\n1 77.88235 77.88235  97"
+  },
+  {
+    "objectID": "index.html#invalid-rows",
+    "href": "index.html#invalid-rows",
+    "title": "Air Quality",
+    "section": "Invalid Rows",
+    "text": "Invalid Rows\nThis shows the rows which have “NA” values in the Ozone variable.\n\n\n [1]   5  10  25  26  27  32  33  34  35  36  37  39  42  43  45  46  52  53  54\n[20]  55  56  57  58  59  60  61  65  72  75  83  84 102 103 107 115 119 150"
+  },
+  {
+    "objectID": "index.html#filtered-dataset",
+    "href": "index.html#filtered-dataset",
+    "title": "Air Quality",
+    "section": "Filtered Dataset",
+    "text": "Filtered Dataset\nThis shows the first and last 5 rows of the filtered dataset (which involves the removal of “NA” values in Ozone (ppb).\n\n\n  Ozone Temp\n1     1   59\n2     4   61\n3     6   57\n4     7   74\n5     7   80\n\n\n    Ozone Temp\n112   115   79\n113   118   94\n114   122   89\n115   135   84\n116   168   81"
+  },
+  {
+    "objectID": "index.html#summary-statistics",
+    "href": "index.html#summary-statistics",
+    "title": "Air Quality",
+    "section": "Summary Statistics",
+    "text": "Summary Statistics\nFor Temperature (°F),\n\n\n      mean      min max\n1 77.87069 77.87069  97\n\n\nFor Ozone (ppb),\n\n\n      mean      min max\n1 42.12931 42.12931 168\n\n\n\n\n\n\n\ngeom_density: na.rm = FALSE, orientation = NA, outline.type = upper\nstat_density: na.rm = FALSE, orientation = NA\nposition_identity"
+  }
+]

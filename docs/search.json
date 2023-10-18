@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Air Quality",
+    "section": "",
+    "text": "Warning: A total of 37 invalid data have been removed in the process of creating the graph above."
+  },
+  {
+    "objectID": "index.html#invalid-rows",
+    "href": "index.html#invalid-rows",
+    "title": "Air Quality",
+    "section": "Invalid Rows",
+    "text": "Invalid Rows\nThis shows the rows which have “NA” values in the Ozone variable.\n\n\n [1]   5  10  25  26  27  32  33  34  35  36  37  39  42  43  45  46  52  53  54\n[20]  55  56  57  58  59  60  61  65  72  75  83  84 102 103 107 115 119 150"
+  },
+  {
+    "objectID": "index.html#filtered-dataset",
+    "href": "index.html#filtered-dataset",
+    "title": "Air Quality",
+    "section": "Filtered Dataset",
+    "text": "Filtered Dataset\nThis shows the first and last 5 rows of the filtered dataset (which involves the removal of “NA” values in Ozone (ppb).\n\n\n  Ozone Temp\n1     1   59\n2     4   61\n3     6   57\n4     7   74\n5     7   80\n\n\n    Ozone Temp\n112   115   79\n113   118   94\n114   122   89\n115   135   84\n116   168   81"
+  },
+  {
+    "objectID": "index.html#summary-statistics",
+    "href": "index.html#summary-statistics",
+    "title": "Air Quality",
+    "section": "Summary Statistics",
+    "text": "Summary Statistics\nFor Temperature (°F),\n\n\n      mean      min max\n1 77.87069 77.87069  97\n\n\nFor Ozone (ppb),\n\n\n      mean      min max\n1 42.12931 42.12931 168\n\n\n\n\n\n\n\ngeom_density: na.rm = FALSE, orientation = NA, outline.type = upper\nstat_density: na.rm = FALSE, orientation = NA\nposition_identity"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The home page shows the relationship between the Temperature (°F) and Ozone (ppb) in New York, United States of America (USA).\n\n\n\n\n\nNew York, USA (Pinterest)"
+  },
+  {
+    "objectID": "about.html#summary",
+    "href": "about.html#summary",
+    "title": "About",
+    "section": "",
+    "text": "The home page shows the relationship between the Temperature (°F) and Ozone (ppb) in New York, United States of America (USA).\n\n\n\n\n\nNew York, USA (Pinterest)"
+  },
+  {
+    "objectID": "about.html#details-of-variables-used",
+    "href": "about.html#details-of-variables-used",
+    "title": "About",
+    "section": "Details of Variables Used",
+    "text": "Details of Variables Used\nTemperature (°F) refers to the highest temperature taken at La Guardia Airport, New York.\nOzone (ppb) refers to the average ozone measured between 1 PM to 3 PM at Roosevelt Island, New York.\nBoth Temperature (°F) and Ozone (ppb) serves as an estimate of the temperature and ozone in New York."
+  },
+  {
+    "objectID": "about.html#background-of-airquality-dataset",
+    "href": "about.html#background-of-airquality-dataset",
+    "title": "About",
+    "section": "Background of “airquality” Dataset",
+    "text": "Background of “airquality” Dataset\nIt is a dataset that is embedded in R. It measures different environmental characteristics in New York, USA from May to September in 1973.\nSome of the variables in the airquality dataset include:\n\n\n[1] \"Ozone\"   \"Solar.R\" \"Wind\"    \"Temp\"    \"Month\"   \"Day\"    \n\n\nThe number of data collected in the airquality dataset:\n\n\n[1] 153"
+  }
+]
