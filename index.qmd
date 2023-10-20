@@ -1,3 +1,9 @@
 ---
-title: "Index"
+title: "Poverty and Inquality"
 ---
+
+```{r, include=FALSE,echo=FALSE}
+library(tidytuesdayR)
+library(tidyverse)
+```
+

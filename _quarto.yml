@@ -9,7 +9,7 @@ website:
       - href: about.qmd
         text: About
       - href: index.qmd
-        text: Index
+        text: Topic
       - href: https://github.com/eexvqn/Previous-Work
         text: Link to Folders
         
