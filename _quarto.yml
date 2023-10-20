@@ -8,6 +8,8 @@ website:
     left:
       - href: about.qmd
         text: About
+      - href: index.qmd
+        text: Index
       - href: https://github.com/eexvqn/Previous-Work
         text: Link to Folders
         
