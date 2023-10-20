@@ -1,0 +1,42 @@
+---
+title: "Introduction"
+---
+
+(2) Week-1 to Week-9 folders with relevant files - challenges and code-alongs - uploaded on Github and link provided on webpage Submit the link to your functional webpage on Canvas
+
+```{r, include=FALSE, eval=TRUE}
+library(shiny)
+library(tidyverse)
+```
+
+## Tan Ee Xuan
+
+## Education
+I am a year 2 student studying Sociology and Communications and New Media in National University of Singapore. 
+
+Here are more details on my education background:
+
+```{r, echo=FALSE, eval=TRUE}
+education <- data.frame(
+  School = c("National University of Singapore", "Victoria Junior College", "Ngee Ann Secondary School"),
+  Start = c(2022, 2020, 2016),
+  End = c(2026, 2021, 2019)
+)
+
+# Display the data frame
+knitr::kable(education)
+
+```
+
+## Experience
+I worked as a Marketing Intern last summer in Oregano Trading Pte Ltd. I also have some experience working part-time as a retail staff at Under Armour and as a food and beverage staff in Andaz Hotel.
+
+## Interest
+I enjoy volunteering at the side and I am a part of YMCA's Uni-Y Craft It! Programme where I do arts and craft with children who are less fortunate.
+
+
+```{r, out.height = "400px",out.width = "300px",echo=FALSE,eval=TRUE, fig.align='right'}
+
+knitr::include_graphics("/Users/eexuan/Downloads/AY2324 Sem1/NM2207/eexvqn.github.io/formal.JPG")
+```
+

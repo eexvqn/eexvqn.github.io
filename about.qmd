@@ -2,29 +2,36 @@
 title: "About"
 ---
 
-## Summary
-The home page shows the relationship between the **Temperature (°F)** and **Ozone (ppb)** in **New York, United States of America (USA)**.
-
-```{r, out.height= "414px",out.width= "736px",echo=FALSE,eval=TRUE,fig.cap="New York, USA (Pinterest)"}
-knitr::include_graphics("/Users/eexuan/Downloads/AY2324 Sem1/NM2207/Final Project/eexvqn.github.io/newyork.jpg")
+```{r, include=FALSE, eval=TRUE}
+library(shiny)
+library(tidyverse)
 ```
 
-## Details of Variables Used
-**Temperature (°F)** refers to the **highest temperature** taken at **La Guardia Airport, New York**.
+## Introduction
 
-**Ozone (ppb)** refers to the average ozone measured between **1 PM to 3 PM** at **Roosevelt Island, New York**. 
+Hi! My name is Ee Xuan. Here is a picture of me:
 
-Both **Temperature (°F)** and **Ozone (ppb)** serves as an estimate of the temperature and ozone in New York. 
+```{r, out.width = "100%",echo=FALSE,eval=TRUE}
 
-## Background of "*airquality*" Dataset
-It is a dataset that is embedded in R. It measures different environmental characteristics in **New York, USA** from **May to September in 1973**. 
-
-Some of the variables in the *airquality* dataset include:
-```{r, eval=TRUE, echo=FALSE}
-colnames(airquality)
+knitr::include_graphics("/Users/eexuan/Downloads/AY2324 Sem1/NM2207/eexvqn.github.io/pic.JPG")
 ```
 
-The number of data collected in the *airquality* dataset:
-```{r, eval=TRUE, echo=FALSE}
-nrow(airquality)
+## Education
+I am a year 2 student studying Sociology and Communications & New Media in National University of Singapore. 
+
+Here are more details on my education background:
+
+```{r, echo=FALSE, eval=TRUE}
+education <- data.frame(
+  School = c("National University of Singapore", "Victoria Junior College", "Ngee Ann Secondary School"),
+  Start = c(2022, 2020, 2016),
+  End = c(2026, 2021, 2019)
+)
+
+knitr::kable(education)
+
 ```
+
+## Interest
+I enjoy volunteering at the side and I am a part of YMCA's Uni-Y Craft It! Programme where I do arts and craft with children who are less fortunate. Some of my other hobbies include running and crocheting.
+

@@ -6,13 +6,11 @@ website:
   title: "Welcome"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
-        text: About 
-      - href: https://static-bcrf.biochem.wisc.edu/courses/Tabular-data-analysis-with-R-and-Tidyverse/book/5-workingwithtabulardata.html
-        text: For More Information 
-
+        text: About
+      - href: https://github.com/eexvqn/Previous-Work
+        text: Link to Folders
+        
 format:
   html:
     theme: litera

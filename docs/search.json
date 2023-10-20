@@ -32,7 +32,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The home page shows the relationship between the Temperature (°F) and Ozone (ppb) in New York, United States of America (USA).\n\n\n\n\n\nNew York, USA (Pinterest)"
+    "text": "Hi! My name is Ee Xuan. Here is a picture of me:"
   },
   {
     "objectID": "about.html#summary",
@@ -54,5 +54,82 @@
     "title": "About",
     "section": "Background of “airquality” Dataset",
     "text": "Background of “airquality” Dataset\nIt is a dataset that is embedded in R. It measures different environmental characteristics in New York, USA from May to September in 1973.\nSome of the variables in the airquality dataset include:\n\n\n[1] \"Ozone\"   \"Solar.R\" \"Wind\"    \"Temp\"    \"Month\"   \"Day\"    \n\n\nThe number of data collected in the airquality dataset:\n\n\n[1] 153"
+  },
+  {
+    "objectID": "week-9.html",
+    "href": "week-9.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Week-1 to Week-9 folders with relevant files - challenges and code-alongs - uploaded on Github and link provided on webpage Submit the link to your functional webpage on Canvas"
+  },
+  {
+    "objectID": "week-9.html#tan-ee-xuan",
+    "href": "week-9.html#tan-ee-xuan",
+    "title": "Introduction",
+    "section": "Tan Ee Xuan",
+    "text": "Tan Ee Xuan"
+  },
+  {
+    "objectID": "week-9.html#education",
+    "href": "week-9.html#education",
+    "title": "Introduction",
+    "section": "Education",
+    "text": "Education\nI am a year 2 student studying Sociology and Communications and New Media in National University of Singapore.\nHere are more details on my education background:\n\n\n\n\n\nSchool\nStart\nEnd\n\n\n\n\nNational University of Singapore\n2022\n2026\n\n\nVictoria Junior College\n2020\n2021\n\n\nNgee Ann Secondary School\n2016\n2019"
+  },
+  {
+    "objectID": "week-9.html#experience",
+    "href": "week-9.html#experience",
+    "title": "Introduction",
+    "section": "Experience",
+    "text": "Experience\nI worked as a Marketing Intern last summer in Oregano Trading Pte Ltd. I also have some experience working part-time as a retail staff at Under Armour and as a food and beverage staff in Andaz Hotel."
+  },
+  {
+    "objectID": "week-9.html#background-of-airquality-dataset",
+    "href": "week-9.html#background-of-airquality-dataset",
+    "title": "Introduction",
+    "section": "Background of “airquality” Dataset",
+    "text": "Background of “airquality” Dataset\nIt is a dataset that is embedded in R. It measures different environmental characteristics in New York, USA from May to September in 1973.\nSome of the variables in the airquality dataset include:"
+  },
+  {
+    "objectID": "week-9.html#interest",
+    "href": "week-9.html#interest",
+    "title": "Introduction",
+    "section": "Interest",
+    "text": "Interest\nI enjoy volunteering at the side and I am a part of YMCA’s Uni-Y Craft It! Programme where I do arts and craft with children who are less fortunate."
+  },
+  {
+    "objectID": "about.html#tan-ee-xuan",
+    "href": "about.html#tan-ee-xuan",
+    "title": "About",
+    "section": "Tan Ee Xuan",
+    "text": "Tan Ee Xuan"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nI am a year 2 student studying Sociology and Communications & New Media in National University of Singapore.\nHere are more details on my education background:\n\n\n\n\n\nSchool\nStart\nEnd\n\n\n\n\nNational University of Singapore\n2022\n2026\n\n\nVictoria Junior College\n2020\n2021\n\n\nNgee Ann Secondary School\n2016\n2019"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nI worked as a Marketing Intern last summer in Oregano Trading Pte Ltd. I also have some experience working part-time as a retail staff at Under Armour and as a food and beverage staff in Andaz Hotel."
+  },
+  {
+    "objectID": "about.html#interest",
+    "href": "about.html#interest",
+    "title": "About",
+    "section": "Interest",
+    "text": "Interest\nI enjoy volunteering at the side and I am a part of YMCA’s Uni-Y Craft It! Programme where I do arts and craft with children who are less fortunate. Some of my other hobbies include running and crocheting."
+  },
+  {
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About",
+    "section": "",
+    "text": "Hi! My name is Ee Xuan. Here is a picture of me:"
   }
 ]

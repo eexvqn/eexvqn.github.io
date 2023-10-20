@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome - Air Quality</title>
+<title>Welcome - Index</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,16 +81,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://static-bcrf.biochem.wisc.edu/courses/Tabular-data-analysis-with-R-and-Tidyverse/book/5-workingwithtabulardata.html" rel="" target="">
- <span class="menu-text">For More Information</span></a>
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Index</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -104,26 +100,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-relationship-between-temperature-and-ozone" id="toc-the-relationship-between-temperature-and-ozone" class="nav-link active" data-scroll-target="#the-relationship-between-temperature-and-ozone"><em>The Relationship between Temperature and Ozone</em></a></li>
-  <li><a href="#upon-cleaning-the-dataset" id="toc-upon-cleaning-the-dataset" class="nav-link" data-scroll-target="#upon-cleaning-the-dataset">Upon Cleaning the Dataset</a>
-  <ul class="collapse">
-  <li><a href="#invalid-rows" id="toc-invalid-rows" class="nav-link" data-scroll-target="#invalid-rows">Invalid Rows</a></li>
-  <li><a href="#filtered-dataset" id="toc-filtered-dataset" class="nav-link" data-scroll-target="#filtered-dataset">Filtered Dataset</a></li>
-  <li><a href="#summary-statistics" id="toc-summary-statistics" class="nav-link" data-scroll-target="#summary-statistics">Summary Statistics</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Air Quality</h1>
+<h1 class="title">Index</h1>
 </div>
 
 
@@ -138,80 +122,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="the-relationship-between-temperature-and-ozone" class="level1">
-<h1><em>The Relationship between Temperature and Ozone</em></h1>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<p><em>Warning: A total of 37 invalid data have been removed in the process of creating the graph above.</em></p>
-</section>
-<section id="upon-cleaning-the-dataset" class="level1">
-<h1>Upon Cleaning the Dataset</h1>
-<p>There is a total of 153 rows of data in <em>airquality</em> dataset. There is, however, certain data which are invalid/NA within the <strong>Ozone (ppb)</strong> variable. Data cleaning would involve the removal of these invalid data.</p>
-<section id="invalid-rows" class="level2">
-<h2 class="anchored" data-anchor-id="invalid-rows">Invalid Rows</h2>
-<p>This shows the rows which have “NA” values in the Ozone variable.</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code> [1]   5  10  25  26  27  32  33  34  35  36  37  39  42  43  45  46  52  53  54
-[20]  55  56  57  58  59  60  61  65  72  75  83  84 102 103 107 115 119 150</code></pre>
-</div>
-</div>
-</section>
-<section id="filtered-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="filtered-dataset">Filtered Dataset</h2>
-<p>This shows the first and last 5 rows of the filtered dataset (which involves the removal of “NA” values in <strong>Ozone (ppb)</strong>.</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>  Ozone Temp
-1     1   59
-2     4   61
-3     6   57
-4     7   74
-5     7   80</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>    Ozone Temp
-112   115   79
-113   118   94
-114   122   89
-115   135   84
-116   168   81</code></pre>
-</div>
-</div>
-</section>
-<section id="summary-statistics" class="level2">
-<h2 class="anchored" data-anchor-id="summary-statistics">Summary Statistics</h2>
-<p>For Temperature (°F),</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>      mean      min max
-1 77.87069 77.87069  97</code></pre>
-</div>
-</div>
-<p>For Ozone (ppb),</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>      mean      min max
-1 42.12931 42.12931 168</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>geom_density: na.rm = FALSE, orientation = NA, outline.type = upper
-stat_density: na.rm = FALSE, orientation = NA
-position_identity </code></pre>
-</div>
-</div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
