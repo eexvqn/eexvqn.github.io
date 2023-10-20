@@ -6,10 +6,10 @@ website:
   title: "Welcome"
   navbar:
     left:
-      - href: about.qmd
-        text: About
       - href: index.qmd
         text: Topic
+      - href: about.qmd
+        text: About
       - href: https://github.com/eexvqn/Previous-Work
         text: Link to Folders
         

@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Australia Fires",
+    "title": "Income and Inequality",
     "section": "",
-    "text": "Rows: 528278 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (3): city_name, temp_type, site_name\ndbl  (1): temperature\ndate (1): date\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n# A tibble: 528,278 × 5\n   city_name date       temperature temp_type site_name    \n   &lt;chr&gt;     &lt;date&gt;           &lt;dbl&gt; &lt;chr&gt;     &lt;chr&gt;        \n 1 PERTH     1910-01-01        26.7 max       PERTH AIRPORT\n 2 PERTH     1910-01-02        27   max       PERTH AIRPORT\n 3 PERTH     1910-01-03        27.5 max       PERTH AIRPORT\n 4 PERTH     1910-01-04        24   max       PERTH AIRPORT\n 5 PERTH     1910-01-05        24.8 max       PERTH AIRPORT\n 6 PERTH     1910-01-06        24.4 max       PERTH AIRPORT\n 7 PERTH     1910-01-07        25.3 max       PERTH AIRPORT\n 8 PERTH     1910-01-08        28   max       PERTH AIRPORT\n 9 PERTH     1910-01-09        32.6 max       PERTH AIRPORT\n10 PERTH     1910-01-10        35.9 max       PERTH AIRPORT\n# ℹ 528,268 more rows"
+    "text": "The topic that I would like to focus on would be on income and inequality in the United States."
   },
   {
     "objectID": "index.html#invalid-rows",

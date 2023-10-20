@@ -1,5 +1,5 @@
 ---
-title: "Poverty and Inquality"
+title: "Income and Inequality"
 ---
 
 ```{r, include=FALSE,echo=FALSE}
@@ -7,3 +7,4 @@ library(tidytuesdayR)
 library(tidyverse)
 ```
 
+The topic that I would like to focus on would be on income and inequality in the United States.
