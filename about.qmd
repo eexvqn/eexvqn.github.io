@@ -13,7 +13,7 @@ Hi! My name is Ee Xuan. Here is a picture of me:
 
 ```{r, out.width = "100%",echo=FALSE,eval=TRUE}
 
-knitr::include_graphics("/Users/eexuan/Downloads/AY2324 Sem1/NM2207/eexvqn.github.io/pic.JPG")
+knitr::include_graphics("/Users/eexuan/Downloads/AY2324 Sem1/NM2207/eexvqn.github.io/me.JPG")
 ```
 
 ## Education

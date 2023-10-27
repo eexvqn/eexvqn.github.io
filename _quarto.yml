@@ -7,9 +7,11 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Topic
+        text: Background
       - href: about.qmd
         text: About
+      - href: AppLink.qmd
+        text: Environment in Brazil
       - href: https://github.com/eexvqn/Previous-Work
         text: Link to Folders
         
