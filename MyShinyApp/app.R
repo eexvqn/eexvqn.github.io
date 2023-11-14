@@ -16,13 +16,13 @@ ui <- fluidPage(
     tags$style(
       HTML(
         ".wellcropslight {
-          background-color: #E1E7DF;
+          background-color: #D6C9BD;
         }
         .wellwhite {
           background-color: #FFFFFF;
         }
         .wellmeatlight {
-          background-color: #EDDDD4;
+          background-color: #C8AD94;
         }"
       )
     )

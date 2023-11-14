@@ -17,8 +17,8 @@ historical_emissions <- read_csv("historical_emissions.csv")
 
 ```{r, echo=FALSE, eval=TRUE}
 plot_ly(historical_emissions, x = ~year) %>%
-  add_trace(y = ~(agriculture * 100 / total), type = 'bar', name = 'Agriculture', marker = list(color = '#E1AAD1')) %>%
-  add_trace(y = ~(land_use_change_and_forestry * 100 / total), type = 'bar', name = 'Land Use Change & Forestry', marker = list(color = '#DBE5A9')) %>%
+  add_trace(y = ~(agriculture * 100 / total), type = 'bar', name = 'Agriculture', marker = list(color = '#B2AC88')) %>%
+  add_trace(y = ~(land_use_change_and_forestry * 100 / total), type = 'bar', name = 'Land Use Change & Forestry', marker = list(color = '#D4E5D2')) %>%
   layout(title = "Contributions to Total Emissions",
          xaxis = list(title = "Year"),
          yaxis = list(title = "Percentage of Emissions (%)"),
