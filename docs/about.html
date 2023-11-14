@@ -112,7 +112,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  </ul></li>
   <li><a href="#choice-of-topic" id="toc-choice-of-topic" class="nav-link" data-scroll-target="#choice-of-topic">Choice of Topic</a></li>
   </ul>
 </nav>
@@ -137,14 +140,20 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="me.JPG" class="img-fluid" style="width:100.0%"></p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<div style="display:flex; justify-content: space-between; align-items: center;">
+<div style="width: 50%;">
+<p>
+My name is Tan Ee Xuan. I am a year 2 student studying Communications &amp; New Media and Sociology in National University of Singapore.
+</p>
+</div>
+<div style="width:40%; padding-top:40%; position:relative; text-align: right; overflow:hidden;">
+<img src="eexuan.JPG" alt="Picture of Ee Xuan" style="width:100%; height:100%; position:absolute; object-fit:cover; top:0; left:0; border-radius: 50%">
 </div>
 </div>
-<p>I am a year 2 student studying Communications &amp; New Media and Sociology in National University of Singapore.</p>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
 <p>Here are more details on my education background:</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -177,8 +186,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="choice-of-topic" class="level2">
-<h2 class="anchored" data-anchor-id="choice-of-topic">Choice of Topic</h2>
+</section>
+<section id="choice-of-topic" class="level1">
+<h1>Choice of Topic</h1>
 <p>I chose the topic on deforestation after coming across an article which mentioned about the forest fires in the Amazon rainforest back in 2020. I remember seeing pictures of the Amazon rainforest in flames and how millions of animals were trapped in a black smog.</p>
 Image below shows the fires in Brazil.
 <script>
