@@ -4,9 +4,38 @@ format: html
 editor: visual
 ---
 
+## Contributors to Greenhouse Gas Emissions
+
+Agriculture and Land Use Change & Forestry are significant contributors to greenhouse gas emissions. They contribute to about 60% of the overall greenhouse gas emissions across Brazil. There has been an increasing trend of greenhouse gas emissions from these 2 industries from 2015 to 2020 as well. 
+<br>
+<br>
+```{r, include=FALSE, eval=TRUE}
+library(tidyverse)
+library(plotly)
+historical_emissions <- read_csv("historical_emissions.csv")
+```
+
+```{r, echo=FALSE, eval=TRUE}
+plot_ly(historical_emissions, x = ~year) %>%
+  add_trace(y = ~(agriculture * 100 / total), type = 'bar', name = 'Agriculture', marker = list(color = '#E1AAD1')) %>%
+  add_trace(y = ~(land_use_change_and_forestry * 100 / total), type = 'bar', name = 'Land Use Change & Forestry', marker = list(color = '#DBE5A9')) %>%
+  layout(title = "Contributions to Total Emissions",
+         xaxis = list(title = "Year"),
+         yaxis = list(title = "Percentage of Emissions (%)"),
+         barmode = 'stack')
+```
+<br>
+<div style="text-align: center;">
+([Climate Watch Data, n.d.](https://www.climatewatchdata.org/countries/BRA?calculation=PER_CAPITA&end_year=2020&start_year=1990){target="_blank"})
+</div>
+<br>
+Hence, there is a need to draw attention to these industries and what exactly contributes to the emission of greenhouse gases.
+
 ## Crops & Production
 
-The most commonly poroduced crops in Brazil are as follows.
+The most commonly produced crops in Brazil are as follows. Interact with the device to learn more about the agriculture and meat production statistics in Brazil from 2011 to 2020.
 
-<iframe height="400" width="120%" frameborder="no" src="https://eexvqn.shinyapps.io/myshinyapp/">
+<iframe height= 1900p width="100%" frameborder="no" src="https://eexvqn.shinyapps.io/myshinyapp/">
 </iframe>
+
+Based on the graphs, 

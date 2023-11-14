@@ -130,19 +130,22 @@ server <- function(input, output) {
     if ("maize" %in% selected_datasets1()) {
       plot1 <- add_trace(plot1,
                          x = maize$year,
-                         y = if (input$percapita) maize$production_kgpercapita else maize$production_kg,
+                         y = if (input$percapita) maize$production_kgpercapita 
+                         else maize$production_kg,
                          type = "scatter", mode = "lines+markers",
                          name = "Maize")}
     if ("soybean" %in% selected_datasets1()) {
       plot1 <- add_trace(plot1,
                          x = soybean$year,
-                         y = if (input$percapita) soybean$production_kgpercapita else soybean$production_kg,
+                         y = if (input$percapita) soybean$production_kgpercapita 
+                         else soybean$production_kg,
                          type = "scatter", mode = "lines+markers",
                          name = "Soybean")}
     if ("sugarcane" %in% selected_datasets1()) {
       plot1 <- add_trace(plot1,
                          x = sugarcane$year,
-                         y = if (input$percapita) sugarcane$production_kgpercapita else sugarcane$production_kg,
+                         y = if (input$percapita) sugarcane$production_kgpercapita 
+                         else sugarcane$production_kg,
                          type = "scatter", mode = "lines+markers",
                          name = "Sugar Cane")}
     
@@ -241,7 +244,7 @@ server <- function(input, output) {
     
     plotA <- layout(plotA,
                     xaxis = list(title = "Year"),
-                    yaxis = list(title = "Production of Meat(kg)"),
+                    yaxis = list(title = "Production of Meat (kg)"),
                     showlegend = TRUE)
     plotA})
   

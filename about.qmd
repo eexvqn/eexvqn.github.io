@@ -42,6 +42,7 @@ knitr::kable(education)
 I chose the topic on deforestation after coming across an article which mentioned about the forest fires in the Amazon rainforest back in 2020. I remember seeing pictures of the Amazon rainforest in flames and how millions of animals were trapped in a black smog.
 
 Image below shows the fires in Brazil.
+
 <script>
   function toggleImages() {
     var imageCensored = document.getElementById('censored');
