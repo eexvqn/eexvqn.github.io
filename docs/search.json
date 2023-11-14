@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Background",
+    "title": "General",
     "section": "",
-    "text": "The topic that I would like to focus on would be on Deforestation in Brazil."
+    "text": "How has Agriculture & Livestock Production Contributed to Deforestation in Brazil?"
   },
   {
     "objectID": "index.html#invalid-rows",
@@ -30,9 +30,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Author",
     "section": "",
-    "text": "Hi! My name is Ee Xuan. Here is a picture of me:"
+    "text": "I am a year 2 student studying Communications & New Media and Sociology in National University of Singapore.\nHere are more details on my education background:\n\n\n\n\n\nSchool\nStart\nEnd\n\n\n\n\nNational University of Singapore\n2022\n2026\n\n\nVictoria Junior College\n2020\n2021\n\n\nNgee Ann Secondary School\n2016\n2019"
   },
   {
     "objectID": "about.html#summary",
@@ -107,9 +107,9 @@
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "About",
+    "title": "Author",
     "section": "Education",
-    "text": "Education\nI am a year 2 student studying Sociology and Communications & New Media in National University of Singapore.\nHere are more details on my education background:\n\n\n\n\n\nSchool\nStart\nEnd\n\n\n\n\nNational University of Singapore\n2022\n2026\n\n\nVictoria Junior College\n2020\n2021\n\n\nNgee Ann Secondary School\n2016\n2019"
+    "text": "Education\nI am a year 2 student studying Communications & New Media and Sociology in National University of Singapore.\nHere are more details on my education background:\n\n\n\n\n\nSchool\nStart\nEnd\n\n\n\n\nNational University of Singapore\n2022\n2026\n\n\nVictoria Junior College\n2020\n2021\n\n\nNgee Ann Secondary School\n2016\n2019"
   },
   {
     "objectID": "about.html#experience",
@@ -121,16 +121,16 @@
   {
     "objectID": "about.html#interest",
     "href": "about.html#interest",
-    "title": "About",
+    "title": "Author",
     "section": "Interest",
     "text": "Interest\nI enjoy volunteering at the side and I am a part of YMCA’s Uni-Y Craft It! Programme where I do arts and craft with children who are less fortunate. Some of my other hobbies include running and crocheting."
   },
   {
     "objectID": "about.html#introduction",
     "href": "about.html#introduction",
-    "title": "About",
+    "title": "Author",
     "section": "",
-    "text": "Hi! My name is Ee Xuan. Here is a picture of me:"
+    "text": "I am a year 2 student studying Communications & New Media and Sociology in National University of Singapore.\nHere are more details on my education background:\n\n\n\n\n\nSchool\nStart\nEnd\n\n\n\n\nNational University of Singapore\n2022\n2026\n\n\nVictoria Junior College\n2020\n2021\n\n\nNgee Ann Secondary School\n2016\n2019"
   },
   {
     "objectID": "week-9/Week-9_R_Submission.html",
@@ -138,5 +138,110 @@
     "title": "Week-9-entry",
     "section": "",
     "text": "Document\nAnswer the following questions in an R Markdown file,\n\nWhat is the topic that you have finalized? (Answer in 1 or 2 sentences),\n\nThe topic I have chosen to finalise on would be on Deforestation in Brazil and how it affects the food supply.\n\nWhat are the data sources that you have curated so far? (Answer 1 or 2 sentences).\n\nThe data sources I have curated are as follows:\n\nlibrary(tidytuesdayR)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nread_csv(\"brazil_loss.csv\")\n\nRows: 13 Columns: 14\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): entity, code\ndbl (12): year, commercial_crops, flooding_due_to_dams, natural_disturbances...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n# A tibble: 13 × 14\n   entity code   year commercial_crops flooding_due_to_dams natural_disturbances\n   &lt;chr&gt;  &lt;chr&gt; &lt;dbl&gt;            &lt;dbl&gt;                &lt;dbl&gt;                &lt;dbl&gt;\n 1 Brazil BRA    2001           280000                    0                    0\n 2 Brazil BRA    2002           415000                79000                35000\n 3 Brazil BRA    2003           550000                    0                35000\n 4 Brazil BRA    2004           747000                26000                22000\n 5 Brazil BRA    2005           328000                17000                26000\n 6 Brazil BRA    2006           188000                17000                26000\n 7 Brazil BRA    2007            79000                 9000                22000\n 8 Brazil BRA    2008            52000                    0                17000\n 9 Brazil BRA    2009            57000                 9000                31000\n10 Brazil BRA    2010           100000                    0                44000\n11 Brazil BRA    2011            52000                17000                87000\n12 Brazil BRA    2012           118000                17000                52000\n13 Brazil BRA    2013            87000                    0                13000\n# ℹ 8 more variables: pasture &lt;dbl&gt;, selective_logging &lt;dbl&gt;, fire &lt;dbl&gt;,\n#   mining &lt;dbl&gt;, other_infrastructure &lt;dbl&gt;, roads &lt;dbl&gt;,\n#   tree_plantations_including_palm &lt;dbl&gt;, small_scale_clearing &lt;dbl&gt;\n\nsoybean_use &lt;- read_csv(\"soybean_use.csv\")\n\nRows: 9897 Columns: 6\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): entity, code\ndbl (4): year, human_food, animal_feed, processed\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nsoybean_use %&gt;%\n  filter(entity == \"Brazil\")\n\n# A tibble: 53 × 6\n   entity code   year human_food animal_feed processed\n   &lt;chr&gt;  &lt;chr&gt; &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt;\n 1 Brazil BRA    1961       3000       46000    137000\n 2 Brazil BRA    1962       3000       65000    167000\n 3 Brazil BRA    1963       4000       80000    191000\n 4 Brazil BRA    1964       4000       68000    216000\n 5 Brazil BRA    1965       6000       68000    284000\n 6 Brazil BRA    1966       8000       60000    376000\n 7 Brazil BRA    1967       9000       49000    400000\n 8 Brazil BRA    1968       9000       89000    454000\n 9 Brazil BRA    1969      12000       92000    590000\n10 Brazil BRA    1970      20000       65000    985000\n# ℹ 43 more rows\n\nvegetable_oil &lt;- read_csv(\"vegetable_oil.csv\")\n\nRows: 143832 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (3): entity, code, crop_oil\ndbl (2): year, production\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nvegetable_oil %&gt;%\n  filter(entity == \"Brazil\")\n\n# A tibble: 702 × 5\n   entity code   year crop_oil        production\n   &lt;chr&gt;  &lt;chr&gt; &lt;dbl&gt; &lt;chr&gt;                &lt;dbl&gt;\n 1 Brazil BRA    1961 Soybean              21594\n 2 Brazil BRA    1961 Sesame                  NA\n 3 Brazil BRA    1961 Linseed               8456\n 4 Brazil BRA    1961 Palm                  3993\n 5 Brazil BRA    1961 Rapeseed                 4\n 6 Brazil BRA    1961 Groundnut            91808\n 7 Brazil BRA    1961 Cottonseed          116230\n 8 Brazil BRA    1961 Coconut (copra)       1071\n 9 Brazil BRA    1961 Olive, virgin           NA\n10 Brazil BRA    1961 Safflower               NA\n# ℹ 692 more rows"
+  },
+  {
+    "objectID": "AppLink.html",
+    "href": "AppLink.html",
+    "title": "Data",
+    "section": "",
+    "text": "The most commonly poroduced crops in Brazil are as follows."
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Topic",
+    "section": "Background",
+    "text": "Background\nThe data story would be focused on sustainability and the environment, more specifically in the context of Brazil. The story would study the trends in agriculture and livestock production in Brazil and how such produce can contribute to deforestation in Brazil. This hopes to answer the question of how agriculture and livestock production has contributed to deforestation in Brazil.\nTo provide some context, Brazil is one of the largest food producers in the world. Brazil has the fourth largest Gross Domestic Product (GDP) value for agriculture produce (Our World in Data, 2021).\n\n&lt;p&gt;Brazil is also known for their contribution to meat production globally.&lt;/p&gt;\n&lt;iframe src=\"https://ourworldindata.org/grapher/meat-production-tonnes\" loading=\"lazy\" style=\"width: 100%; height: 600px; border: 0px none;\"&gt;\n\n\nSome of the more popular crops grown in Brazil include soybean, maize, sugarcane and rice (Global Yield Gap Atlas, n.d.). In addition to agriculture, Brazil also has one of the largest populations of livestock in the world (Schneider et al., 2023). Both livestock and agricultural produce can be supplied and used to feed people from other countries, emphasising Brazil’s role in food production. From the sheer size of the agriculture and livestock produce, Brazil can be considered as a significant contributor to the food available in the world.\nThis contribution to the food supply, is unfortunately also one of the leading causes of deforestation in Brazil. Land is required to grow crops and to rear livestock. Farmers may seek to clear land in rainforests in order to start plantations and create pastures (Moran, 2018). Excessive clearing of rainforests can drive climate change and indirectly affect people around the world. The title of agriculture superpower that Brazil holds is hence not without consequences. While Brazil supplies a large proportion of food to the world, it also contributes significantly to global emissions and climate change."
+  },
+  {
+    "objectID": "index.html#the-lungs-of-the-planet",
+    "href": "index.html#the-lungs-of-the-planet",
+    "title": "Topic",
+    "section": "The Lungs of the Planet",
+    "text": "The Lungs of the Planet\n\n\n\n\n(Winter, 2023)\n\nThe clearing of rainforests in Brazil can lead to climate change, affecting the lives of many others across the world. When rainforests are being cleared for agricultural or livestock production, the amount of carbon dioxide being absorbed by the rainforest, or the carbon sink, decreases. The largest tropical rainforest in the world, the Amazon rainforest, is located in Brazil and is facing the threat of deforestation. Deforestation and agriculture are some of the main causes of greenhouse gas emissions in Brazil (Gratten, 2022). The greenhouse gases trap heat and can lead to climate change that affects countries worldwide. The effects of climate change will have a devastating impact on countries and communities all around the world, especially for the poor who may depend on the environment for their livelihoods (MercyCorps, 2021). It is hence important to protect the rainforests and reduce deforestation."
+  },
+  {
+    "objectID": "index.html#causes-of-deforestation",
+    "href": "index.html#causes-of-deforestation",
+    "title": "Topic",
+    "section": "Causes of Deforestation",
+    "text": "Causes of Deforestation\nWatch a short video on the main causes of deforestation below!"
+  },
+  {
+    "objectID": "index.html#importance-in-addressing-the-question",
+    "href": "index.html#importance-in-addressing-the-question",
+    "title": "Topic",
+    "section": "Importance in Addressing the Question",
+    "text": "Importance in Addressing the Question\nUnderstanding how agriculture and livestock production contributed to deforestation in Brazil can help provide solutions to reduce deforestation and protect biodiversity.\nBy addressing the question, there can be better solutions to reduce deforestation. Through the data, we can study the specific crops or livestock that require more land and or emit more greenhouse gases. We can find ways to increase the efficiency of production for the produce or cut production on certain crops or livestock that are less environmentally friendly. For instance, rearing livestock usually leads to a large amount of greenhouse gas being emitted. This is because livestock requires cleared land for pastures and crops grown for feed.\n\n\n\n\n(Chain Reaction Research, 2019)\n\nMeat products, therefore, indirectly fuel the production of certain crops and the emissions produced by these crops. Changing consumption habits, like cutting out meat, is an example of a targeted approach to indirectly reduce emissions and deforestation. Addressing the question is hence important in driving future solutions to mitigate deforestation.\nAdditionally, addressing the question is important as it can help preserve biodiversity. Understanding the agriculture and livestock produce that contributes to deforestation can allow better measures to prevent such clearing of rainforests. The Amazon rainforest is the world’s largest tropical carbon sink (Pannett, 2021). It holds over 3 million species in a complex yet interconnected and balanced ecosystem (Thomson, 2020). Land cleared for pastures and plantations threatens the balance and leads to a decline in biodiversity. This can potentially lead to the loss of the healthcare and food security benefits that biodiversity provides. Addressing the question helps reduce deforestation, therefore preserving biodiversity.\nThrough answering the question, we can help reduce deforestation through adopting more sustainable consumption practices. This can mitigate impacts on climate change and preserve biodiversity within the rainforests. Understanding the role that agricultural and livestock production plays in deforestation can serve as a stepping stone for generating sustainable solutions in the future."
+  },
+  {
+    "objectID": "about.html#choice-of-topic",
+    "href": "about.html#choice-of-topic",
+    "title": "Author",
+    "section": "Choice of Topic",
+    "text": "Choice of Topic\nI chose the topic on deforestation after coming across an article which mentioned about the forest fires in the Amazon rainforest back in 2020. I remember seeing pictures of the Amazon rainforest in flames and how millions of animals were trapped in a black smog.\nImage below shows the fires in Brazil.\n\n \nThis was one of the motivation behind choosing to focus on deforestation in Brazil.\nThe other reason would be my interest in agricultural and livestock produce. I previously worked in a supply chain company, Oregano Trading Pte Ltd, and I recall that some of imports were obtained from Brazil.\nI sought to link both interests through the topic that I have chosen which focuses on deforestation as a consequence of agriculture and livestock in Brazil."
+  },
+  {
+    "objectID": "AppLink.html#crops-production",
+    "href": "AppLink.html#crops-production",
+    "title": "Data",
+    "section": "",
+    "text": "The most commonly poroduced crops in Brazil are as follows."
+  },
+  {
+    "objectID": "index.html#importance-in-understanding-the-role-of-agriculture-livestock-production-in-deforestation",
+    "href": "index.html#importance-in-understanding-the-role-of-agriculture-livestock-production-in-deforestation",
+    "title": "Topic",
+    "section": "Importance in Understanding the Role of Agriculture & Livestock Production in Deforestation",
+    "text": "Importance in Understanding the Role of Agriculture & Livestock Production in Deforestation\nUnderstanding how agriculture and livestock production contributed to deforestation in Brazil can help provide solutions to reduce deforestation and protect biodiversity.\nBy addressing the question, there can be better solutions to reduce deforestation. Through the data, we can study the specific crops or livestock that require more land and or emit more greenhouse gases. We can find ways to increase the efficiency of production for the produce or cut production on certain crops or livestock that are less environmentally friendly. For instance, rearing livestock usually leads to a large amount of greenhouse gas being emitted. This is because livestock requires cleared land for pastures and crops grown for feed.\n\n\n\n\n(Chain Reaction Research, 2019)\n\nMeat products, therefore, indirectly fuel the production of certain crops and the emissions produced by these crops. Changing consumption habits, like cutting out meat, is an example of a targeted approach to indirectly reduce emissions and deforestation. Addressing the question is hence important in driving future solutions to mitigate deforestation.\nAdditionally, addressing the question is important as it can help preserve biodiversity. Understanding the agriculture and livestock produce that contributes to deforestation can allow better measures to prevent such clearing of rainforests. The Amazon rainforest is the world’s largest tropical carbon sink (Pannett, 2021). It holds over 3 million species in a complex yet interconnected and balanced ecosystem (Thomson, 2020). Land cleared for pastures and plantations threatens the balance and leads to a decline in biodiversity. This can potentially lead to the loss of the healthcare and food security benefits that biodiversity provides. Addressing the question helps reduce deforestation, therefore preserving biodiversity.\nThrough answering the question, we can help reduce deforestation through adopting more sustainable consumption practices. This can mitigate impacts on climate change and preserve biodiversity within the rainforests. Understanding the role that agricultural and livestock production plays in deforestation can serve as a stepping stone for generating sustainable solutions in the future."
+  },
+  {
+    "objectID": "index.html#to-reduce-deforestation",
+    "href": "index.html#to-reduce-deforestation",
+    "title": "General",
+    "section": "To Reduce Deforestation",
+    "text": "To Reduce Deforestation\nBy addressing the question, there can be better solutions to reduce deforestation. Through the data, we can study the specific crops or livestock that require more land and or emit more greenhouse gases. We can find ways to increase the efficiency of production for the produce or cut production on certain crops or livestock that are less environmentally friendly. For instance, rearing livestock usually leads to a large amount of greenhouse gas being emitted. This is because livestock requires cleared land for pastures and crops grown for feed.\n\n\n\n\n(Chain Reaction Research, 2019)\n\nMeat products, therefore, indirectly fuel the production of certain crops and the emissions produced by these crops. Changing consumption habits, like cutting out meat, is an example of a targeted approach to indirectly reduce emissions and deforestation. Addressing the question is hence important in driving future solutions to mitigate deforestation."
+  },
+  {
+    "objectID": "index.html#to-protect-biodiversity",
+    "href": "index.html#to-protect-biodiversity",
+    "title": "General",
+    "section": "To Protect Biodiversity",
+    "text": "To Protect Biodiversity\nAdditionally, addressing the question is important as it can help preserve biodiversity. Understanding the agriculture and livestock produce that contributes to deforestation can allow better measures to prevent such clearing of rainforests. The Amazon rainforest is the world’s largest tropical carbon sink (Pannett, 2021). It holds over 3 million species in a complex yet interconnected and balanced ecosystem (Thomson, 2020). Land cleared for pastures and plantations threatens the balance and leads to a decline in biodiversity. This can potentially lead to the loss of the healthcare and food security benefits that biodiversity provides. Addressing the question helps reduce deforestation, therefore preserving biodiversity.\nThrough answering the question, we can help reduce deforestation through adopting more sustainable consumption practices. This can mitigate impacts on climate change and preserve biodiversity within the rainforests. Understanding the role that agricultural and livestock production plays in deforestation can serve as a stepping stone for generating sustainable solutions in the future."
+  },
+  {
+    "objectID": "about.html#section",
+    "href": "about.html#section",
+    "title": "Author",
+    "section": "",
+    "text": "This was one of the motivation behind choosing to focus on deforestation in Brazil.\nThe other reason would be my interest in agricultural and livestock produce. I previously worked in a supply chain company, Oregano Trading Pte Ltd, and I recall that some of imports were obtained from Brazil.\nI sought to link both interests through the topic that I have chosen which focuses on deforestation as a consequence of agriculture and livestock in Brazil."
+  },
+  {
+    "objectID": "index.html#brazil-agriculture-livestock-superpower",
+    "href": "index.html#brazil-agriculture-livestock-superpower",
+    "title": "General",
+    "section": "Brazil: Agriculture & Livestock Superpower",
+    "text": "Brazil: Agriculture & Livestock Superpower\nTo provide some context, Brazil is one of the largest food producers in the world. Brazil has the fourth largest Gross Domestic Product (GDP) value for agriculture produce (Our World in Data, 2021).\n\n\nBrazil is also known for their contribution to meat production globally.\n\n\nSome of the more popular crops grown in Brazil include soybean, maize, sugarcane and rice (Global Yield Gap Atlas, n.d.). In addition to agriculture, Brazil also has one of the largest populations of livestock in the world (Schneider et al., 2023). Both livestock and agricultural produce can be supplied and used to feed people from other countries, emphasising Brazil’s role in food production. From the sheer size of the agriculture and livestock produce, Brazil can be considered as a significant contributor to the food available in the world."
+  },
+  {
+    "objectID": "index.html#deforestation-in-brazil",
+    "href": "index.html#deforestation-in-brazil",
+    "title": "General",
+    "section": "Deforestation in Brazil",
+    "text": "Deforestation in Brazil\nBrazil’s contribution to the food supply, is unfortunately also one of the leading causes of deforestation in Brazil. Land is required to grow crops and to rear livestock. Farmers may seek to clear land in rainforests in order to start plantations and create pastures (Moran, 2018). Excessive clearing of rainforests can drive climate change and indirectly affect people around the world. The title of agriculture superpower that Brazil holds is hence not without consequences. While Brazil supplies a large proportion of food to the world, it also contributes significantly to global emissions and climate change.\n\n\nBrazil’s contributions to worldwide tropical deforestation is about one-third, emphasising the significance of the problem and hence the need to address the issue of deforestation in Brazil.\nWatch a short video on the main causes of deforestation below."
+  },
+  {
+    "objectID": "index.html#agriculture-livestock-superpower-brazil",
+    "href": "index.html#agriculture-livestock-superpower-brazil",
+    "title": "Topic",
+    "section": "Agriculture & Livestock Superpower: Brazil",
+    "text": "Agriculture & Livestock Superpower: Brazil\nThe data story would be focused on sustainability and the environment, more specifically in the context of Brazil. The story would study the trends in agriculture and livestock production in Brazil and how such produce can contribute to deforestation in Brazil. This hopes to answer the question of how agriculture and livestock production has contributed to deforestation in Brazil.\nTo provide some context, Brazil is one of the largest food producers in the world. Brazil has the fourth largest Gross Domestic Product (GDP) value for agriculture produce (Our World in Data, 2021).\n\n\nBrazil is also known for their contribution to meat production globally.\n\n\nSome of the more popular crops grown in Brazil include soybean, maize, sugarcane and rice (Global Yield Gap Atlas, n.d.). In addition to agriculture, Brazil also has one of the largest populations of livestock in the world (Schneider et al., 2023). Both livestock and agricultural produce can be supplied and used to feed people from other countries, emphasising Brazil’s role in food production. From the sheer size of the agriculture and livestock produce, Brazil can be considered as a significant contributor to the food available in the world."
+  },
+  {
+    "objectID": "index.html#amazon-rainforest-as-the-lungs-of-the-planet",
+    "href": "index.html#amazon-rainforest-as-the-lungs-of-the-planet",
+    "title": "General",
+    "section": "Amazon Rainforest as the “Lungs of the Planet”",
+    "text": "Amazon Rainforest as the “Lungs of the Planet”\n\n\n\n\n(Neugarten, 2017)\n\nThe clearing of rainforests in Brazil can contribute to climate change, affecting the lives of many others across the world. Greenhouse gases are released when rainforests are being cleared for agricultural or livestock production. The decrease in size of the rainforest, a carbon sink, also meant that the carbon dioxide absorbed by the rainforest would fall. Deforestation is one of the main causes of greenhouse gas emissions in Brazil (Gratten, 2022).\nThe largest tropical rainforest in the world, the Amazon rainforest, is located in Brazil and faces the threat of deforestation. The greenhouse gases released from clearing the rainforest would trap heat, contributing to climate change that affects countries worldwide.\nThe effects of climate change will have a devastating impact on countries and communities all around the world, especially for the poor who may depend on the environment for their livelihoods (MercyCorps, 2021). An example would be that climate change can lead to an increase in floods.\n\n\n\n\n(UNICEF, 2019)\n\nIncrease in floods can reveal further damage already unstable infrastructure that the poor relies on. It is hence important to protect the rainforests and reduce deforestation."
   }
 ]

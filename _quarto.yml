@@ -3,15 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Welcome"
+  title: "Environment"
   navbar:
     left:
       - href: index.qmd
-        text: Background
-      - href: about.qmd
-        text: About
+        text: General
       - href: AppLink.qmd
-        text: Environment in Brazil
+        text: Analysis
+      - href: about.qmd
+        text: Author
       - href: https://github.com/eexvqn/Previous-Work
         text: Link to Folders
         

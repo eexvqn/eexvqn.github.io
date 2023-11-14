@@ -1,5 +1,5 @@
 ---
-title: "Background"
+title: "General"
 ---
 
 ```{r, include=FALSE,echo=FALSE}
@@ -7,4 +7,96 @@ library(tidytuesdayR)
 library(tidyverse)
 ```
 
-The topic that I would like to focus on would be on Deforestation in Brazil.
+[*How has Agriculture & Livestock Production Contributed to Deforestation in Brazil?*]{style="font-size: 56px;"}
+
+<div style="overflow: hidden; max-width: 100%;">
+  <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/179C0/production/_125840769_hi077252483.jpg.webp" style="width: 100%; height: auto; object-fit: cover;">
+</div>
+
+<div style="text-align: center;">
+([Cursino, 2022](https://www.bbc.com/news/world-latin-america-62103336){target="_blank"})
+</div>
+
+# Background
+
+The data story would be focused on sustainability and the environment, more specifically in the context of Brazil. The story would study the trends in agriculture and livestock production in Brazil and how such produce can contribute to deforestation in Brazil. This hopes to answer the question of how agriculture and livestock production has contributed to deforestation in Brazil.
+
+## *Brazil: Agriculture & Livestock Superpower*
+
+To provide some context, Brazil is one of the largest food producers in the world. Brazil has the fourth largest Gross Domestic Product (GDP) value for agriculture produce ([Our World in Data, 2021](https://ourworldindata.org/agricultural-production#explore-data-on-agricultural-production){target="_blank"}).
+
+<iframe src="https://ourworldindata.org/grapher/value-of-agricultural-production" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+Brazil is also known for their contribution to meat production globally.
+
+<iframe src="https://ourworldindata.org/grapher/meat-production-tonnes" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+Some of the more popular crops grown in Brazil include soybean, maize, sugarcane and rice ([Global Yield Gap Atlas, n.d.](https://www.yieldgap.org/Brazil){target="_blank"}). In addition to agriculture, Brazil also has one of the largest populations of livestock in the world ([Schneider et al., 2023](https://www.britannica.com/place/Brazil#ref25058){target="_blank"}). Both livestock and agricultural produce can be supplied and used to feed people from other countries, emphasising Brazil's role in food production. From the sheer size of the agriculture and livestock produce, Brazil can be considered as a significant contributor to the food available in the world.
+
+## *Deforestation in Brazil*
+
+Brazil's contribution to the food supply, is unfortunately also one of the leading causes of deforestation in Brazil. Land is required to grow crops and to rear livestock. Farmers may seek to clear land in rainforests in order to start plantations and create pastures ([Moran, 2018](https://www.bu.edu/articles/2018/deforestation-in-brazil/#:~:text=Brazilians%20destroy%20native%20habitats%20for,sprawl%2C%20and%20to%20raise%20cattle){target="_blank"}). Excessive clearing of rainforests can drive climate change and indirectly affect people around the world. The title of agriculture superpower that Brazil holds is hence not without consequences. While Brazil supplies a large proportion of food to the world, it also contributes significantly to global emissions and climate change.
+
+<iframe src="https://ourworldindata.org/grapher/region-share-tropical-deforestation?stackMode=absolute%C2%AEion" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+Brazil's contributions to worldwide tropical deforestation is about one-third, emphasising the significance of the problem and hence the need to address the issue of deforestation in Brazil.
+
+Watch a short video on the main causes of deforestation below.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/M4jhjt1_eyM?si=X5f5j5nxSV0AMrHR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0" allowfullscreen></iframe>
+</div>
+
+# Consequence of Deforestation
+
+## Amazon Rainforest as the "Lungs of the Planet"
+
+<div style="overflow: hidden; max-width: 100%;">
+  <img src="https://ciorg.imgix.net/images/default-source/default-album/ci_84087497be55177047cc4c26b1b1019fc5505c77?&auto=compress&auto=format&fit=crop&w=1200&h=630" style="width: 100%; height: auto; object-fit: cover;">
+</div>
+
+<div style="text-align: center;">
+([Neugarten, 2017](https://www.conservation.org/blog/these-7-maps-shed-light-on-most-crucial-areas-of-amazon-rainforest){target="_blank"})
+</div>
+
+The clearing of rainforests in Brazil can contribute to climate change, affecting the lives of many others across the world. Greenhouse gases are released when rainforests are being cleared for agricultural or livestock production. The decrease in size of the rainforest, a carbon sink, also meant that the carbon dioxide absorbed by the rainforest would fall. Deforestation is one of the main causes of greenhouse gas emissions in Brazil ([Gratten, 2022](https://www.reuters.com/world/americas/brazils-2021-climate-emissions-highest-since-2006-report-says-2022-11-01/#:~:text=Data%20shows%20that%20last%20year,2.16%20billion%20tonnes%20in%202020){target="_blank"}).
+
+The largest tropical rainforest in the world, the Amazon rainforest, is located in Brazil and faces the threat of deforestation. The greenhouse gases released from clearing the rainforest would trap heat, contributing to climate change that affects countries worldwide. 
+
+The effects of climate change will have a devastating impact on countries and communities all around the world, especially for the poor who may depend on the environment for their livelihoods ([MercyCorps, 2021](https://www.mercycorps.org/blog/climate-change-poverty){target="_blank"}). An example would be that climate change can lead to an increase in floods.
+
+<div style="overflow: hidden; max-width: 100%;">
+  <img src="https://www.unicef.org/rosa/sites/unicef.org.rosa/files/styles/press_release_feature/public/UN0286419.jpg?itok=zex6VQG6" style="width: 100%; height: auto; object-fit: cover;">
+</div>
+
+<div style="text-align: center;">
+([UNICEF, 2019](https://www.unicef.org/rosa/press-releases/climate-change-threatens-lives-and-futures-over-19-million-children-bangladesh){target="_blank"})
+</div>
+
+Increase in floods can reveal further damage already unstable infrastructure that the poor relies on. It is hence important to protect the rainforests and reduce deforestation.
+ 
+# Importance in Understanding the Role of Agriculture & Livestock Production in Deforestation
+
+Understanding how agriculture and livestock production contributed to deforestation in Brazil can help provide solutions to reduce deforestation and protect biodiversity. 
+
+## To Reduce Deforestation
+
+By addressing the question, there can be better solutions to reduce deforestation. Through the data, we can study the specific crops or livestock that require more land and or emit more greenhouse gases. We can find ways to increase the efficiency of production for the produce or cut production on certain crops or livestock that are less environmentally friendly. For instance, rearing livestock usually leads to a large amount of greenhouse gas being emitted. This is because livestock requires cleared land for pastures and crops grown for feed. 
+
+<div style="overflow: hidden; max-width: 100%;">
+  <img src="https://chainreactionresearch.com/wp-content/uploads/2019/01/brazilbeef.jpg" style="width: 100%; height: auto; object-fit: cover;">
+</div>
+
+<div style="text-align: center;">
+([Chain Reaction Research, 2019](https://chainreactionresearch.com/the-chain-rising-brazilian-beef-exports-to-china-to-test-sustainability-commitments/){target="_blank"})
+</div>
+
+Meat products, therefore, indirectly fuel the production of certain crops and the emissions produced by these crops. Changing consumption habits, like cutting out meat, is an example of a targeted approach to indirectly reduce emissions and deforestation. Addressing the question is hence important in driving future solutions to mitigate deforestation.
+
+## To Protect Biodiversity
+
+Additionally, addressing the question is important as it can help preserve biodiversity. Understanding the agriculture and livestock produce that contributes to deforestation can allow better measures to prevent such clearing of rainforests. The Amazon rainforest is the world’s largest tropical carbon sink ([Pannett, 2021](https://www.washingtonpost.com/world/2021/07/16/amazon-rainforest-climate-carbon/){target="_blank"}). It holds over 3 million species in a complex yet interconnected and balanced ecosystem ([Thomson, 2020](https://www.greenpeace.org/usa/biodiversity-and-the-amazon-rainforest/){target="_blank"}). Land cleared for pastures and plantations threatens the balance and leads to a decline in biodiversity. This can potentially lead to the loss of the healthcare and food security benefits that biodiversity provides. Addressing the question helps reduce deforestation, therefore preserving biodiversity. 
+
+Through answering the question, we can help reduce deforestation through adopting more sustainable consumption practices. This can mitigate impacts on climate change and preserve biodiversity within the rainforests. Understanding the role that agricultural and livestock production plays in deforestation can serve as a stepping stone for generating sustainable solutions in the future.
+
+
