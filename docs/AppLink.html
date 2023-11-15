@@ -120,8 +120,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#contributors-to-greenhouse-gas-emissions" id="toc-contributors-to-greenhouse-gas-emissions" class="nav-link active" data-scroll-target="#contributors-to-greenhouse-gas-emissions">Contributors to Greenhouse Gas Emissions</a></li>
+  <li><a href="#understanding-deforestation-through-data" id="toc-understanding-deforestation-through-data" class="nav-link active" data-scroll-target="#understanding-deforestation-through-data">Understanding Deforestation through Data</a>
+  <ul class="collapse">
+  <li><a href="#contributors-to-greenhouse-gas-emissions" id="toc-contributors-to-greenhouse-gas-emissions" class="nav-link" data-scroll-target="#contributors-to-greenhouse-gas-emissions">Contributors to Greenhouse Gas Emissions</a></li>
   <li><a href="#crops-production" id="toc-crops-production" class="nav-link" data-scroll-target="#crops-production">Crops &amp; Production</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -145,27 +149,86 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="understanding-deforestation-through-data" class="level1">
+<h1>Understanding Deforestation through Data</h1>
+<p>The datasets involved are from Our World in Data (<a href="https://ourworldindata.org/agricultural-production#explore-data-on-agricultural-production" target="_blank">Ritchie et al., 2023</a>) and from Climate Watch Data (<a href="https://www.climatewatchdata.org/countries/BRA?calculation=PER_CAPITA&amp;end_year=2020&amp;start_year=1990" target="_blank">Climate Watch Data, n.d.</a>).</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">historical_emissions.csv</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Climate Watch Data</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">maize.csv</td>
+<td style="text-align: left;">Crop</td>
+<td style="text-align: left;">Our World in Data</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">soybean.csv</td>
+<td style="text-align: left;">Crop</td>
+<td style="text-align: left;">Our World in Data</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sugarcane.csv</td>
+<td style="text-align: left;">Crop</td>
+<td style="text-align: left;">Our World in Data</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">cattle.csv</td>
+<td style="text-align: left;">Meat</td>
+<td style="text-align: left;">Our World in Data</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">poultry.csv</td>
+<td style="text-align: left;">Meat</td>
+<td style="text-align: left;">Our World in Data</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">pigmeat.csv</td>
+<td style="text-align: left;">Meat</td>
+<td style="text-align: left;">Our World in Data</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <section id="contributors-to-greenhouse-gas-emissions" class="level2">
 <h2 class="anchored" data-anchor-id="contributors-to-greenhouse-gas-emissions">Contributors to Greenhouse Gas Emissions</h2>
 <p>Agriculture and Land Use Change &amp; Forestry are significant contributors to greenhouse gas emissions. They contribute to about 60% of the overall greenhouse gas emissions across Brazil. There has been an increasing trend of greenhouse gas emissions from these 2 industries from 2015 to 2020 as well. <br> <br></p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-4ff6575c1f2f7866510b" style="width:100%;height:464px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4ff6575c1f2f7866510b">{"x":{"visdat":{"c5248d2dd2d":["function () ","plotlyVisDat"]},"cur_data":"c5248d2dd2d","attrs":{"c5248d2dd2d":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","name":"Agriculture","marker":{"color":"#B2AC88"},"inherit":true},"c5248d2dd2d.1":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","name":"Land Use Change & Forestry","marker":{"color":"#D4E5D2"},"inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Contributions to Total Emissions","xaxis":{"domain":[0,1],"automargin":true,"title":"Year"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Percentage of Emissions (%)"},"barmode":"stack","hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[37.978529236448551,36.787930943931158,35.850070667533849,35.455244398270672,36.008592363814273,34.036875674500372,33.856938765410412,34.161021695680837,34.414448471669132,35.304883949825303],"type":"bar","name":"Agriculture","marker":{"color":"#B2AC88","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[20.748143872945025,20.428355632835444,19.565895440820846,19.22702264843236,19.885971680987577,26.954043071488744,26.923438159980453,26.960005073949056,27.091339493628563,27.55329553593371],"type":"bar","name":"Land Use Change & Forestry","marker":{"color":"#D4E5D2","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-50a29bc4428b0cd4ad41" style="width:100%;height:464px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-50a29bc4428b0cd4ad41">{"x":{"visdat":{"20a7365c3071":["function () ","plotlyVisDat"]},"cur_data":"20a7365c3071","attrs":{"20a7365c3071":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","name":"Agriculture","marker":{"color":"#B2AC88"},"inherit":true},"20a7365c3071.1":{"x":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":{},"type":"bar","name":"Land Use Change & Forestry","marker":{"color":"#D4E5D2"},"inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Contributions to Total Emissions","xaxis":{"domain":[0,1],"automargin":true,"title":"Year"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Percentage of Emissions (%)"},"barmode":"stack","hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[37.978529236448551,36.787930943931158,35.850070667533849,35.455244398270672,36.008592363814273,34.036875674500372,33.856938765410412,34.161021695680837,34.414448471669132,35.304883949825303],"type":"bar","name":"Agriculture","marker":{"color":"#B2AC88","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[20.748143872945025,20.428355632835444,19.565895440820846,19.22702264843236,19.885971680987577,26.954043071488744,26.923438159980453,26.960005073949056,27.091339493628563,27.55329553593371],"type":"bar","name":"Land Use Change & Forestry","marker":{"color":"#D4E5D2","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <br>
 <div style="text-align: center;">
 <p>(<a href="https://www.climatewatchdata.org/countries/BRA?calculation=PER_CAPITA&amp;end_year=2020&amp;start_year=1990" target="_blank">Climate Watch Data, n.d.</a>)</p>
 </div>
-<p><br> Hence, there is a need to draw attention to these industries and what exactly contributes to the emission of greenhouse gases.</p>
+<p><br> Since deforestation is often the cause of emissions, agriculture or livestock production activities can therefore be considered as one of the main drivers of deforestation.</p>
 </section>
 <section id="crops-production" class="level2">
 <h2 class="anchored" data-anchor-id="crops-production">Crops &amp; Production</h2>
 <p>The most commonly produced crops in Brazil are as follows. Interact with the device to learn more about the agriculture and meat production statistics in Brazil from 2011 to 2020.</p>
 <iframe height="1900p" width="100%" frameborder="no" src="https://eexvqn.shinyapps.io/myshinyapp/">
 </iframe>
-<p>Based on the graphs,</p>
+<p>From the data, soybean appears to be one of the largest contributors to deforestation. Despite the production of sugarcane being significantly higher, the amount of land used for soybean production is the most significant and is still increasing as of 2020. This shows that much of the land area cleared is being used for soybean production. Soybean production is hence the most significant crop contributor to deforestation.</p>
+<p>The data shows that the maize produced largely served as animal feed. About half of the maize produced is used as animal feed. This is significantly more than the portion of soybean or sugarcane produced used for animal feed. Maize is one of the most popular animal feeds for poultry (<a href="https://poultry.extension.org/articles/feeds-and-feeding-of-poultry/feed-ingredients-for-poultry/cereals-in-poultry-diets/corn-in-poultry-diets/" target="”_blank”">Jacob, n.d.</a>). From the data, poultry production, in mass and quantity, is the highest among the meat types from the period of 2011 to 2020. Cattle production, in terms of mass, comes in second, followed by pigmeat. The data hence supports the idea of maize production for animal feed.</p>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>The information allows for better context on the agriculture and livestock production in Brazil, potentially allowing for the adoption of practices that can reduce deforestation from such production. These trends can also show the trajectory of the crop being produced, allowing future predictions on the drivers of deforestation.</p>
 
 
 </section>

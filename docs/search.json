@@ -144,7 +144,7 @@
     "href": "AppLink.html",
     "title": "Analysis",
     "section": "",
-    "text": "Agriculture and Land Use Change & Forestry are significant contributors to greenhouse gas emissions. They contribute to about 60% of the overall greenhouse gas emissions across Brazil. There has been an increasing trend of greenhouse gas emissions from these 2 industries from 2015 to 2020 as well.  \n\n\n\n\n\n\n\n\n(Climate Watch Data, n.d.)\n\n Hence, there is a need to draw attention to these industries and what exactly contributes to the emission of greenhouse gases."
+    "text": "The datasets involved are from Our World in Data (Ritchie et al., 2023) and from Climate Watch Data (Climate Watch Data, n.d.).\n\n\n\n\n\nName\nType\nSource\n\n\n\n\nhistorical_emissions.csv\n-\nClimate Watch Data\n\n\nmaize.csv\nCrop\nOur World in Data\n\n\nsoybean.csv\nCrop\nOur World in Data\n\n\nsugarcane.csv\nCrop\nOur World in Data\n\n\ncattle.csv\nMeat\nOur World in Data\n\n\npoultry.csv\nMeat\nOur World in Data\n\n\npigmeat.csv\nMeat\nOur World in Data\n\n\n\n\n\n\n\nAgriculture and Land Use Change & Forestry are significant contributors to greenhouse gas emissions. They contribute to about 60% of the overall greenhouse gas emissions across Brazil. There has been an increasing trend of greenhouse gas emissions from these 2 industries from 2015 to 2020 as well.  \n\n\n\n\n\n\n\n\n(Climate Watch Data, n.d.)\n\n Since deforestation is often the cause of emissions, agriculture or livestock production activities can therefore be considered as one of the main drivers of deforestation.\n\n\n\nThe most commonly produced crops in Brazil are as follows. Interact with the device to learn more about the agriculture and meat production statistics in Brazil from 2011 to 2020.\n\n\nFrom the data, soybean appears to be one of the largest contributors to deforestation. Despite the production of sugarcane being significantly higher, the amount of land used for soybean production is the most significant and is still increasing as of 2020. This shows that much of the land area cleared is being used for soybean production. Soybean production is hence the most significant crop contributor to deforestation.\nThe data shows that the maize produced largely served as animal feed. About half of the maize produced is used as animal feed. This is significantly more than the portion of soybean or sugarcane produced used for animal feed. Maize is one of the most popular animal feeds for poultry (Jacob, n.d.). From the data, poultry production, in mass and quantity, is the highest among the meat types from the period of 2011 to 2020. Cattle production, in terms of mass, comes in second, followed by pigmeat. The data hence supports the idea of maize production for animal feed."
   },
   {
     "objectID": "index.html#background",
@@ -185,8 +185,8 @@
     "objectID": "AppLink.html#crops-production",
     "href": "AppLink.html#crops-production",
     "title": "Analysis",
-    "section": "Crops & Production",
-    "text": "Crops & Production\nThe most commonly produced crops in Brazil are as follows. Interact with the device to learn more about the agriculture and meat production statistics in Brazil from 2011 to 2020.\n\n\nBased on the graphs,"
+    "section": "",
+    "text": "The most commonly produced crops in Brazil are as follows. Interact with the device to learn more about the agriculture and meat production statistics in Brazil from 2011 to 2020.\n\n\nFrom the data, soybean appears to be one of the largest contributors to deforestation. Despite the production of sugarcane being significantly higher, the amount of land used for soybean production is the most significant and is still increasing as of 2020. This shows that much of the land area cleared is being used for soybean production. Soybean production is hence the most significant crop contributor to deforestation.\nThe data shows that the maize produced largely served as animal feed. About half of the maize produced is used as animal feed. This is significantly more than the portion of soybean or sugarcane produced used for animal feed. Maize is one of the most popular animal feeds for poultry (Jacob, n.d.). From the data, poultry production, in mass and quantity, is the highest among the meat types from the period of 2011 to 2020. Cattle production, in terms of mass, comes in second, followed by pigmeat. The data hence supports the idea of maize production for animal feed."
   },
   {
     "objectID": "index.html#importance-in-understanding-the-role-of-agriculture-livestock-production-in-deforestation",
@@ -221,7 +221,7 @@
     "href": "index.html#brazil-agriculture-livestock-superpower",
     "title": "General",
     "section": "Brazil: Agriculture & Livestock Superpower",
-    "text": "Brazil: Agriculture & Livestock Superpower\nTo provide some context, Brazil is one of the largest food producers in the world. Brazil has the fourth largest Gross Domestic Product (GDP) value for agriculture produce (Our World in Data, 2021).\n\n\nBrazil is also known for their contribution to meat production globally.\n\n\nSome of the more popular crops grown in Brazil include soybean, maize, sugarcane and rice (Global Yield Gap Atlas, n.d.). In addition to agriculture, Brazil also has one of the largest populations of livestock in the world (Schneider et al., 2023). Both livestock and agricultural produce can be supplied and used to feed people from other countries, emphasising Brazil’s role in food production. From the sheer size of the agriculture and livestock produce, Brazil can be considered as a significant contributor to the food available in the world."
+    "text": "Brazil: Agriculture & Livestock Superpower\nTo provide some context, Brazil is one of the largest food producers in the world. Brazil has the fourth largest Gross Domestic Product (GDP) value for agriculture produce (Ritchie et al., 2023).\n\n\nBrazil is also known for their contribution to meat production globally.\n\n\nSome of the more popular crops grown in Brazil include soybean, maize, sugarcane and rice (Global Yield Gap Atlas, n.d.). In addition to agriculture, Brazil also has one of the largest populations of livestock in the world (Schneider et al., 2023). Both livestock and agricultural produce can be supplied and used to feed people from other countries, emphasising Brazil’s role in food production. From the sheer size of the agriculture and livestock produce, Brazil can be considered as a significant contributor to the food available in the world."
   },
   {
     "objectID": "index.html#deforestation-in-brazil",
@@ -249,6 +249,13 @@
     "href": "AppLink.html#contributors-to-greenhouse-gas-emissions",
     "title": "Analysis",
     "section": "",
-    "text": "Agriculture and Land Use Change & Forestry are significant contributors to greenhouse gas emissions. They contribute to about 60% of the overall greenhouse gas emissions across Brazil. There has been an increasing trend of greenhouse gas emissions from these 2 industries from 2015 to 2020 as well.  \n\n\n\n\n\n\n\n\n(Climate Watch Data, n.d.)\n\n Hence, there is a need to draw attention to these industries and what exactly contributes to the emission of greenhouse gases."
+    "text": "Agriculture and Land Use Change & Forestry are significant contributors to greenhouse gas emissions. They contribute to about 60% of the overall greenhouse gas emissions across Brazil. There has been an increasing trend of greenhouse gas emissions from these 2 industries from 2015 to 2020 as well.  \n\n\n\n\n\n\n\n\n(Climate Watch Data, n.d.)\n\n Since deforestation is often the cause of emissions, agriculture or livestock production activities can therefore be considered as one of the main drivers of deforestation."
+  },
+  {
+    "objectID": "AppLink.html#conclusion",
+    "href": "AppLink.html#conclusion",
+    "title": "Analysis",
+    "section": "",
+    "text": "The information allows for better context on the agriculture and livestock production in Brazil, potentially allowing for the adoption of practices that can reduce deforestation from such production. These trends can also show the trajectory of the crop being produced, allowing future predictions on the drivers of deforestation."
   }
 ]

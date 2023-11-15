@@ -3,6 +3,28 @@ title: "Analysis"
 format: html
 editor: visual
 ---
+```{r, include=FALSE, eval=TRUE}
+library(shiny)
+library(tidyverse)
+```
+# Understanding Deforestation through Data
+
+The datasets involved are from Our World in Data ([Ritchie et al., 2023](https://ourworldindata.org/agricultural-production#explore-data-on-agricultural-production){target="_blank"}) and from Climate Watch Data ([Climate Watch Data, n.d.](https://www.climatewatchdata.org/countries/BRA?calculation=PER_CAPITA&end_year=2020&start_year=1990){target="_blank"}).
+
+```{r, echo=FALSE, eval=TRUE}
+dataused <- data.frame(
+  Name = c("historical_emissions.csv", "maize.csv", "soybean.csv", 
+           "sugarcane.csv", "cattle.csv", "poultry.csv", 
+           "pigmeat.csv"),
+  Type = c("-", "Crop", "Crop", "Crop", "Meat", "Meat", "Meat"),
+  Source = c("Climate Watch Data", "Our World in Data", "Our World in Data", 
+             "Our World in Data","Our World in Data","Our World in Data",
+             "Our World in Data")
+)
+
+knitr::kable(dataused)
+
+```
 
 ## Contributors to Greenhouse Gas Emissions
 
@@ -29,13 +51,18 @@ plot_ly(historical_emissions, x = ~year) %>%
 ([Climate Watch Data, n.d.](https://www.climatewatchdata.org/countries/BRA?calculation=PER_CAPITA&end_year=2020&start_year=1990){target="_blank"})
 </div>
 <br>
-Hence, there is a need to draw attention to these industries and what exactly contributes to the emission of greenhouse gases.
+Since deforestation is often the cause of emissions, agriculture or livestock production activities can therefore be considered as one of the main drivers of deforestation.
 
 ## Crops & Production
 
-The most commonly produced crops in Brazil are as follows. Interact with the device to learn more about the agriculture and meat production statistics in Brazil from 2011 to 2020.
+The most commonly produced crops in Brazil are as follows. Interact with the device to learn more about the agriculture and meat production statistics in Brazil from 2011 to 2020. 
 
 <iframe height= 1900p width="100%" frameborder="no" src="https://eexvqn.shinyapps.io/myshinyapp/">
 </iframe>
 
-Based on the graphs, 
+From the data, soybean appears to be one of the largest contributors to deforestation. Despite the production of sugarcane being significantly higher, the amount of land used for soybean production is the most significant and is still increasing as of 2020. This shows that much of the land area cleared is being used for soybean production. Soybean production is hence the most significant crop contributor to deforestation. 
+
+The data shows that the maize produced largely served as animal feed. About half of the maize produced is used as animal feed. This is significantly more than the portion of soybean or sugarcane produced used for animal feed. Maize is one of the most popular animal feeds for poultry ([Jacob, n.d.](https://poultry.extension.org/articles/feeds-and-feeding-of-poultry/feed-ingredients-for-poultry/cereals-in-poultry-diets/corn-in-poultry-diets/){target=”_blank”}). From the data, poultry production, in mass and quantity, is the highest among the meat types from the period of 2011 to 2020. Cattle production, in terms of mass, comes in second, followed by pigmeat. The data hence supports the idea of maize production for animal feed.
+
+# Conclusion
+The information allows for better context on the agriculture and livestock production in Brazil, potentially allowing for the adoption of practices that can reduce deforestation from such production. These trends can also show the trajectory of the crop being produced, allowing future predictions on the drivers of deforestation.

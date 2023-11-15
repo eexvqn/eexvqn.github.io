@@ -23,7 +23,7 @@ The data story would be focused on sustainability and the environment, more spec
 
 ## *Brazil: Agriculture & Livestock Superpower*
 
-To provide some context, Brazil is one of the largest food producers in the world. Brazil has the fourth largest Gross Domestic Product (GDP) value for agriculture produce ([Our World in Data, 2021](https://ourworldindata.org/agricultural-production#explore-data-on-agricultural-production){target="_blank"}).
+To provide some context, Brazil is one of the largest food producers in the world. Brazil has the fourth largest Gross Domestic Product (GDP) value for agriculture produce ([Ritchie et al., 2023](https://ourworldindata.org/agricultural-production#explore-data-on-agricultural-production){target="_blank"}).
 
 <iframe src="https://ourworldindata.org/grapher/value-of-agricultural-production" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
